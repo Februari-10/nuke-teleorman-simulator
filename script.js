@@ -9,7 +9,7 @@ if (nukeCount === null) {
     nukeCount = parseInt(nukeCount);
 }
 
-counterText.textContent = `Teleorman nuked: ${nukeCount} times`;
+counterText.textContent = `You have nuked Teleorman ${nukeCount} times`;
 
 nukeButton.addEventListener("click", () => {
     explosion.style.display = "block";
